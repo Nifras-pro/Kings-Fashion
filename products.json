@@ -3,7 +3,7 @@
     "id": "leather-bike-jacket",
     "name": "Leather Bike Jacket",
     "category": "Bike Jackets",
-    "price": 2500,
+    "price": 2799,
     "description": "Genuine leather construction built for daily riding, reinforced stitching and a close fit through the shoulders.",
     "image": "assets/Lather Jacket.png",
     "featured": true
@@ -12,7 +12,7 @@
     "id": "classic-cotton-tshirt",
     "name": "Classic Cotton T-Shirt",
     "category": "T-Shirts & Shirts",
-    "price": 950,
+    "price": 1450,
     "description": "Soft everyday cotton tee, available in multiple colours.",
     "image": "assets/T-shirt.png",
     "featured": false
@@ -28,9 +28,9 @@
   },
   {
     "id": "slim-denim-jeans",
-    "name": "Slim Fit Denim Jeans",
+    "name": "Cargo Pants",
     "category": "Trousers & Denims",
-    "price": 2200,
+    "price": 3400,
     "description": "Durable slim-fit denim built for everyday wear.",
     "image": "assets/Trouser.png",
     "featured": false
