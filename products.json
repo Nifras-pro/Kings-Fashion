@@ -37,11 +37,11 @@
   },
   {
     "id": "winter-jacket-gents",
-    "name": "Winter Jacket - Gents",
+    "name": "Winter Bike Jacket - Gents",
     "category": "Winter Jackets",
     "price": 3200,
     "description": "Heavier layered jacket for the cooler months.",
-    "image": "",
+    "image": "assets/Winter Jacket.png",
     "featured": false
   },
   {
