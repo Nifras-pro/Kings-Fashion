@@ -90,15 +90,35 @@ function renderProducts(){
   container.querySelectorAll("[data-add]").forEach(btn => {
     btn.addEventListener("click", () => Cart.add(btn.getAttribute("data-add")));
   });
+  // wire up thumbnail image swapping
+  container.querySelectorAll("[data-thumb]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const pid = btn.getAttribute("data-thumb");
+      const src = btn.getAttribute("data-src");
+      const mainImg = container.querySelector(`.main-img[data-main="${pid}"]`);
+      if(mainImg) mainImg.src = src;
+      btn.parentElement.querySelectorAll(".thumb-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+    });
+  });
 }
 
 function productCardHTML(p, iconPath){
-  const img = p.image
-    ? `<img src="${p.image}" alt="${escapeHTML(p.name)}">`
+  const imgs = (p.images && p.images.length) ? p.images : (p.image ? [p.image] : []);
+  const hasImgs = imgs.length > 0;
+  const mediaHTML = hasImgs
+    ? `<img src="${imgs[0]}" alt="${escapeHTML(p.name)}" class="main-img" data-main="${p.id}">`
     : `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">${iconPath}</svg>`;
+  const thumbsHTML = imgs.length > 1
+    ? `<div class="thumb-row">${imgs.map((src, i) => `
+        <button class="thumb-btn${i === 0 ? ' active' : ''}" data-thumb="${p.id}" data-src="${src}">
+          <img src="${src}" alt="">
+        </button>`).join("")}</div>`
+    : "";
   return `
     <div class="product-card">
-      <div class="product-thumb">${img}</div>
+      <div class="product-thumb">${mediaHTML}</div>
+      ${thumbsHTML}
       <h4>${escapeHTML(p.name)}</h4>
       <p class="desc">${escapeHTML(p.description || "")}</p>
       <div class="price-row">
