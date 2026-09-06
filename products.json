@@ -5,7 +5,7 @@
     "category": "Bike Jackets",
     "price": 2500,
     "description": "Genuine leather construction built for daily riding, reinforced stitching and a close fit through the shoulders.",
-    "image": "",
+    "image": "assets/Lather Jacket.png",
     "featured": true
   },
   {
@@ -14,7 +14,7 @@
     "category": "T-Shirts & Shirts",
     "price": 950,
     "description": "Soft everyday cotton tee, available in multiple colours.",
-    "image": "",
+    "image": "assets/T-shirt.png",
     "featured": false
   },
   {
@@ -32,7 +32,7 @@
     "category": "Trousers & Denims",
     "price": 2200,
     "description": "Durable slim-fit denim built for everyday wear.",
-    "image": "",
+    "image": "assets/Trouser.png",
     "featured": false
   },
   {
