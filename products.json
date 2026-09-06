@@ -1,0 +1,56 @@
+[
+  {
+    "id": "leather-bike-jacket",
+    "name": "Leather Bike Jacket",
+    "category": "Bike Jackets",
+    "price": 2500,
+    "description": "Genuine leather construction built for daily riding, reinforced stitching and a close fit through the shoulders.",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "classic-cotton-tshirt",
+    "name": "Classic Cotton T-Shirt",
+    "category": "T-Shirts & Shirts",
+    "price": 950,
+    "description": "Soft everyday cotton tee, available in multiple colours.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "formal-shirt",
+    "name": "Formal Shirt",
+    "category": "T-Shirts & Shirts",
+    "price": 1800,
+    "description": "Smart-casual shirt suited for work or evenings out.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "slim-denim-jeans",
+    "name": "Slim Fit Denim Jeans",
+    "category": "Trousers & Denims",
+    "price": 2200,
+    "description": "Durable slim-fit denim built for everyday wear.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "winter-jacket-gents",
+    "name": "Winter Jacket - Gents",
+    "category": "Winter Jackets",
+    "price": 3200,
+    "description": "Heavier layered jacket for the cooler months.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "kids-tshirt-set",
+    "name": "Kids T-Shirt Set (2 pack)",
+    "category": "Kids Collection",
+    "price": 1200,
+    "description": "Durable, easy-care everyday wear for children.",
+    "image": "",
+    "featured": false
+  }
+]
