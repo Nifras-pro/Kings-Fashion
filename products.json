@@ -1,12 +1,12 @@
 [
   {
-    "id": "leather-bike-jacket",
-    "name": "Leather Bike Jacket",
-    "category": "Bike Jackets",
-    "price": 2799,
-    "description": "Genuine leather construction built for daily riding, reinforced stitching and a close fit through the shoulders.",
-    "image": "assets/Lather Jacket.png",
-    "featured": true
+  "id": "leather-bike-jacket",
+  "name": "Leather Bike Jacket",
+  "category": "Bike Jackets",
+  "price": 2500,
+  "description": "Genuine leather construction built for daily riding, reinforced stitching and a close fit through the shoulders.",
+  "images": ["assets/Lather Jacket.png", "assets/Winter Jackets.png"],
+  "featured": true
   },
   {
     "id": "classic-cotton-tshirt",
