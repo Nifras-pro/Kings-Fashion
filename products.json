@@ -22,6 +22,72 @@
     "featured": true
   },
   {
+    "id": "printed-tshirt-1",
+    "name": "Printed T-Shirt - Design 1",
+    "category": "T-Shirts & Shirts",
+    "price": 1975,
+    "stock": 10,
+    "description": "Cool printed t-shirt with its own distinct colourway and design.",
+    "images": ["assets/1A.jpg", "assets/1B.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "printed-tshirt-2",
+    "name": "Printed T-Shirt - Design 2",
+    "category": "T-Shirts & Shirts",
+    "price": 1975,
+    "stock": 10,
+    "description": "Cool printed t-shirt with its own distinct colourway and design.",
+    "images": ["assets/2A.jpg", "assets/2B.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "printed-tshirt-3",
+    "name": "Printed T-Shirt - Design 3",
+    "category": "T-Shirts & Shirts",
+    "price": 1975,
+    "stock": 10,
+    "description": "Cool printed t-shirt with its own distinct colourway and design.",
+    "images": ["assets/3A.jpg", "assets/3B.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "printed-tshirt-4",
+    "name": "Printed T-Shirt - Design 4",
+    "category": "T-Shirts & Shirts",
+    "price": 1975,
+    "stock": 10,
+    "description": "Cool printed t-shirt with its own distinct colourway and design.",
+    "images": ["assets/4A.jpg", "assets/4B.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "printed-tshirt-5",
+    "name": "Printed T-Shirt - Design 5",
+    "category": "T-Shirts & Shirts",
+    "price": 1975,
+    "stock": 10,
+    "description": "Cool printed t-shirt with its own distinct colourway and design.",
+    "images": ["assets/5A.jpg", "assets/5B.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "printed-tshirt-7",
+    "name": "Printed T-Shirt - Design 7",
+    "category": "T-Shirts & Shirts",
+    "price": 1975,
+    "stock": 10,
+    "description": "Cool printed t-shirt with its own distinct colourway and design.",
+    "images": ["assets/7A.png", "assets/7B.png"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
     "id": "classic-cotton-tshirt",
     "name": "Classic Cotton T-Shirt",
     "category": "T-Shirts & Shirts",
