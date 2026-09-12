@@ -3,10 +3,21 @@
     "id": "leather-bike-jacket",
     "name": "Leather Bike Jacket",
     "category": "Bike Jackets",
-    "price": 2500,
+    "price": 2975,
     "stock": 8,
     "description": "Genuine leather construction built for daily riding, reinforced stitching and a close fit through the shoulders.",
-    "images": ["assets/Lather Jacket.png", "assets/Winter Jackets.png"],
+    "images": ["assets/jacket_01.png", "assets/jacket_photo_02.png", "assets/jacket_photo_04.png", "assets/jacket_photo_05.png", "assets/jacket_photo_06.png", "assets/jacket_photo_08.png"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": true
+  },
+  {
+    "id": "leather-bike-jacket-premium",
+    "name": "Leather Bike Jacket (Premium)",
+    "category": "Bike Jackets",
+    "price": 3975,
+    "stock": 8,
+    "description": "Genuine leather construction built for daily riding, reinforced stitching and a close fit through the shoulders.",
+    "images": ["assets/jacket_photo_09.png", "assets/jacket_photo_10.png", "assets/jacket_photo_12.png", "assets/jacket_photo_14.png", "assets/jacket_photo_15.png", "assets/jacket_photo_16.png"],
     "sizes": ["S", "M", "L", "XL"],
     "featured": true
   },
