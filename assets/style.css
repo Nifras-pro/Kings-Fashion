@@ -6,7 +6,7 @@
   --burgundy:#7A1330;
   --charcoal:#221E1A;
   --muted:#9C9385;
-  --line: rgba(243,238,225,0.14);
+  --line: rgba(8, 8, 5, 0.14);
   --danger:#C24444;
 }
 *{box-sizing:border-box; margin:0; padding:0;}
