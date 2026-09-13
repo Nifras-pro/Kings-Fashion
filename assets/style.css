@@ -10,8 +10,11 @@
   --danger:#C24444;
 }
 *{box-sizing:border-box; margin:0; padding:0;}
-html{scroll-behavior:smooth;}
+html{scroll-behavior:smooth; overflow-x:hidden; width:100%;}
 body{
+  overflow-x:hidden;
+  width:100%;
+  max-width:100vw;
   background-color:var(--ink);
   background-image:
     linear-gradient(45deg, rgba(255,255,255,0.02) 25%, transparent 25%),
@@ -111,7 +114,8 @@ nav.links a:hover{color:var(--gold-bright);}
   background:linear-gradient(180deg, rgba(20,17,15,0.35) 0%, rgba(20,17,15,0.55) 55%, rgba(20,17,15,0.9) 100%);
 }
 .hero-content{
-  position:relative; z-index:2; padding:80px 28px; max-width:760px; margin:0 auto;
+  position:relative; z-index:2; padding:80px 28px; max-width:760px; width:100%; margin:0 auto;
+  box-sizing:border-box;
 }
 .hero-frame{
   border:1px solid rgba(228,197,94,0.28);
@@ -222,7 +226,7 @@ section{padding:80px 0;}
 .product-card h4{cursor:pointer;}
 
 /* ---------- Quick View modal ---------- */
-.quickview-box{width:420px; max-width:95vw; padding:0; overflow:hidden; max-height:92vh; overflow-y:auto;}
+.quickview-box{width:420px; max-width:95vw; padding:0; overflow:hidden; max-height:92vh; overflow-y:auto; box-sizing:border-box;}
 .qv-media{
   position:relative; overflow:hidden;
   min-height:280px; display:flex; align-items:center; justify-content:center;
@@ -259,7 +263,7 @@ section{padding:80px 0;}
   font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:600;
   color:var(--gold-bright); font-size:1.7rem;
 }
-.qv-info{padding:14px 24px 26px; display:flex; flex-direction:column; gap:16px;}
+.qv-info{padding:14px 24px 32px; display:flex; flex-direction:column; gap:16px;}
 .qv-info .desc{color:var(--muted); font-size:0.9rem;}
 .qv-price-row{display:flex; align-items:center; gap:10px;}
 .qv-option-group{display:flex; flex-direction:column; gap:10px;}
@@ -311,6 +315,12 @@ section{padding:80px 0;}
   #quickview-modal .quickview-box{
     width:100%; max-width:420px; max-height:88vh; border-radius:4px;
   }
+  #quickview-modal .qv-media{min-height:220px;}
+  #quickview-modal .qv-main-img{width:150px; height:180px; border-radius:75px 75px 8px 8px;}
+  #quickview-modal .qv-media::before{width:170px; height:170px;}
+  #quickview-modal .qv-title{font-size:1.4rem;}
+  #quickview-modal .qv-title-row{padding:14px 20px 0;}
+  #quickview-modal .qv-info{padding:10px 20px 28px; gap:12px;}
 }
 .specials-block{
   border:1px solid var(--gold); padding:32px 28px 8px; margin-bottom:64px;
