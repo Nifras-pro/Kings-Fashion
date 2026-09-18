@@ -12,6 +12,7 @@ const CATEGORY_ICONS = {
   "Trousers & Denims": `<path d="M6 4h12l-1 16H7L6 4z"/><path d="M6 9h12"/>`,
   "Bike Jackets": `<path d="M7 4l3 2h4l3-2 3 4-2 2v10H6V10L4 8z"/><path d="M10 6v4M14 6v4"/>`,
   "Winter Jackets": `<path d="M12 3l7 4v6c0 4-3 7-7 8-4-1-7-4-7-8V7l7-4z"/>`,
+  "Hoodies": `<path d="M7 5c0-1.7 2.2-3 5-3s5 1.3 5 3l3 3-2 2-1-1v10H6V9l-1 1-2-2z"/><path d="M9 5a3 3 0 0 0 6 0"/>`,
   "Gents Collection": `<circle cx="12" cy="7" r="3"/><path d="M6 21v-4a6 6 0 0 1 12 0v4"/>`,
   "Kids Collection": `<circle cx="12" cy="6" r="2.4"/><path d="M8 20v-3a4 4 0 0 1 8 0v3"/>`
 };
