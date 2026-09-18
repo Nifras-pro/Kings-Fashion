@@ -22,8 +22,8 @@
     "featured": true
   },
   {
-    "id": "printed-tshirt-1",
-    "name": "Printed T-Shirt - Design 1",
+    "id": "cotton-tshirt-1",
+    "name": "Cotton T-Shirt - Design 1",
     "category": "T-Shirts & Shirts",
     "price": 1975,
     "stock": 10,
@@ -33,8 +33,8 @@
     "featured": false
   },
   {
-    "id": "printed-tshirt-2",
-    "name": "Printed T-Shirt - Design 2",
+    "id": "cotton-tshirt-2",
+    "name": "Cotton T-Shirt - Design 2",
     "category": "T-Shirts & Shirts",
     "price": 1975,
     "stock": 10,
@@ -44,8 +44,8 @@
     "featured": false
   },
   {
-    "id": "printed-tshirt-3",
-    "name": "Printed T-Shirt - Design 3",
+    "id": "cotton-tshirt-3",
+    "name": "Cotton T-Shirt - Design 3",
     "category": "T-Shirts & Shirts",
     "price": 1975,
     "stock": 10,
@@ -55,8 +55,8 @@
     "featured": false
   },
   {
-    "id": "printed-tshirt-4",
-    "name": "Printed T-Shirt - Design 4",
+    "id": "cotton-tshirt-4",
+    "name": "Cotton T-Shirt - Design 4",
     "category": "T-Shirts & Shirts",
     "price": 1975,
     "stock": 10,
@@ -66,8 +66,8 @@
     "featured": false
   },
   {
-    "id": "printed-tshirt-5",
-    "name": "Printed T-Shirt - Design 5",
+    "id": "cotton-tshirt-5",
+    "name": "Cotton T-Shirt - Design 5",
     "category": "T-Shirts & Shirts",
     "price": 1975,
     "stock": 10,
@@ -77,8 +77,8 @@
     "featured": false
   },
   {
-    "id": "printed-tshirt-7",
-    "name": "Printed T-Shirt - Design 7",
+    "id": "cotton-tshirt-7",
+    "name": "Cotton T-Shirt - Design 7",
     "category": "T-Shirts & Shirts",
     "price": 1975,
     "stock": 10,
@@ -99,17 +99,6 @@
     "featured": false
   },
   {
-    "id": "formal-shirt",
-    "name": "Formal Shirt",
-    "category": "T-Shirts & Shirts",
-    "price": 1800,
-    "stock": 12,
-    "description": "Smart-casual shirt suited for work or evenings out.",
-    "image": "",
-    "sizes": ["S", "M", "L", "XL"],
-    "featured": false
-  },
-  {
     "id": "slim-denim-jeans",
     "name": "Slim Fit Denim Jeans",
     "category": "Trousers & Denims",
@@ -121,25 +110,146 @@
     "featured": false
   },
   {
-    "id": "winter-jacket-gents",
-    "name": "Winter Jacket - Gents",
-    "category": "Winter Jackets",
-    "price": 3200,
-    "stock": 0,
-    "description": "Heavier layered jacket for the cooler months.",
-    "image": "",
+    "id": "denim-d1",
+    "name": "Denim - Style D1",
+    "category": "Trousers & Denims",
+    "price": 4975,
+    "stock": 8,
+    "description": "Durable denim built for everyday wear, with its own distinct wash and fit.",
+    "images": ["assets/D1.jpg", "assets/D1A.png"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "featured": false
+  },
+  {
+    "id": "denim-d2",
+    "name": "Denim - Style D2",
+    "category": "Trousers & Denims",
+    "price": 4975,
+    "stock": 8,
+    "description": "Durable denim built for everyday wear, with its own distinct wash and fit.",
+    "images": ["assets/D2.jpg", "assets/D2A.png"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "featured": false
+  },
+  {
+    "id": "denim-d3",
+    "name": "Denim - Style D3",
+    "category": "Trousers & Denims",
+    "price": 4975,
+    "stock": 8,
+    "description": "Durable denim built for everyday wear, with its own distinct wash and fit.",
+    "images": ["assets/D3.jpg"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "featured": false
+  },
+  {
+    "id": "denim-d4",
+    "name": "Denim - Style D4",
+    "category": "Trousers & Denims",
+    "price": 4975,
+    "stock": 8,
+    "description": "Durable denim built for everyday wear, with its own distinct wash and fit.",
+    "images": ["assets/D4.jpg"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "featured": false
+  },
+  {
+    "id": "denim-d5",
+    "name": "Denim - Style D5",
+    "category": "Trousers & Denims",
+    "price": 4975,
+    "stock": 8,
+    "description": "Durable denim built for everyday wear, with its own distinct wash and fit.",
+    "images": ["assets/D5.jpg"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "featured": false
+  },
+  {
+    "id": "hoodie-h1",
+    "name": "Hoodie - Style H1",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H1A.jpg", "assets/H1B.jpg"],
     "sizes": ["S", "M", "L", "XL"],
     "featured": false
   },
   {
-    "id": "kids-tshirt-set",
-    "name": "Kids T-Shirt Set (2 pack)",
-    "category": "Kids Collection",
-    "price": 1200,
-    "stock": 15,
-    "description": "Durable, easy-care everyday wear for children.",
-    "image": "",
-    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "id": "hoodie-h2",
+    "name": "Hoodie - Style H2",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H2A.jpg", "assets/H2B.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "hoodie-h3",
+    "name": "Hoodie - Style H3",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H3.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "hoodie-h4",
+    "name": "Hoodie - Style H4",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H4.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "hoodie-h5",
+    "name": "Hoodie - Style H5",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H5.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "hoodie-h6",
+    "name": "Hoodie - Style H6",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H6.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "hoodie-h7",
+    "name": "Hoodie - Style H7",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H7.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
+    "featured": false
+  },
+  {
+    "id": "hoodie-h8",
+    "name": "Hoodie - Style H8",
+    "category": "Hoodies",
+    "price": 2975,
+    "stock": 8,
+    "description": "Comfortable everyday hoodie with its own distinct colourway and design.",
+    "images": ["assets/H8.jpg"],
+    "sizes": ["S", "M", "L", "XL"],
     "featured": false
   }
 ]
