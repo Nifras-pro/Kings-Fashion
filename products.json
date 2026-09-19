@@ -88,28 +88,6 @@
     "featured": false
   },
   {
-    "id": "classic-cotton-tshirt",
-    "name": "Classic Cotton T-Shirt",
-    "category": "T-Shirts & Shirts",
-    "price": 950,
-    "stock": 20,
-    "description": "Soft everyday cotton tee, available in multiple colours.",
-    "image": "assets/T-shirt.png",
-    "sizes": ["S", "M", "L", "XL"],
-    "featured": false
-  },
-  {
-    "id": "slim-denim-jeans",
-    "name": "Slim Fit Denim Jeans",
-    "category": "Trousers & Denims",
-    "price": 2200,
-    "stock": 4,
-    "description": "Durable slim-fit denim built for everyday wear.",
-    "image": "assets/Trouser.png",
-    "sizes": ["28", "30", "32", "34", "36"],
-    "featured": false
-  },
-  {
     "id": "denim-d1",
     "name": "Denim - Style D1",
     "category": "Trousers & Denims",
